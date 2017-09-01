@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<request xmlns="http://www.section9.org/cms/referral/data">
+  <head>
+    <version>2005</version>
+    <functionNo>C010005</functionNo>
+    <targetOrg>450702</targetOrg>
+    <healthcareprovider identity="P04" password="123456" />
+  </head>
+  <body>
+    <D501_02>450702201408148128</D501_02>
+  </body>
+</request>

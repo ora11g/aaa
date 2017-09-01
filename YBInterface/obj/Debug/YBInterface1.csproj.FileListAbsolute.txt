@@ -1,0 +1,35 @@
+E:\projects\YBInterface\release\YBInterface1.exe.config
+E:\projects\YBInterface\release\YBInterface1.exe
+E:\projects\YBInterface\release\YBInterface1.pdb
+E:\projects\YBInterface\YBInterface\obj\Debug\YBInterface1.exe
+E:\projects\YBInterface\YBInterface\obj\Debug\YBInterface1.pdb
+D:\XYHIS\新建文件夹\新建文件夹\YBInterface\release\YBInterface1.exe.config
+D:\XYHIS\新建文件夹\新建文件夹\YBInterface\YBInterface\obj\Debug\YBInterface1.exe
+D:\XYHIS\新建文件夹\新建文件夹\YBInterface\YBInterface\obj\Debug\YBInterface1.pdb
+D:\XYHIS\新建文件夹\新建文件夹\YBInterface\release\YBInterface1.exe
+D:\XYHIS\新建文件夹\新建文件夹\YBInterface\release\YBInterface1.pdb
+E:\新建文件夹\YBInterface\release\YBInterface1.exe.config
+E:\新建文件夹\YBInterface\YBInterface\obj\Debug\YBInterface1.exe
+E:\新建文件夹\YBInterface\YBInterface\obj\Debug\YBInterface1.pdb
+E:\新建文件夹\YBInterface\release\YBInterface1.exe
+E:\新建文件夹\YBInterface\release\YBInterface1.pdb
+E:\新建文件夹 - 副本\YBInterface\release\YBInterface1.exe.config
+E:\新建文件夹 - 副本\YBInterface\YBInterface\obj\Debug\YBInterface1.exe
+E:\新建文件夹 - 副本\YBInterface\YBInterface\obj\Debug\YBInterface1.pdb
+E:\新建文件夹 - 副本\YBInterface\release\YBInterface1.exe
+E:\新建文件夹 - 副本\YBInterface\release\YBInterface1.pdb
+E:\新建文件夹 - 副本\YBInterface\YBInterface\obj\Debug\YBInterface1.csprojResolveAssemblyReference.cache
+D:\projects\YBInterface\release\YBInterface1.exe.config
+D:\projects\YBInterface\YBInterface\obj\Debug\YBInterface1.exe
+D:\projects\YBInterface\YBInterface\obj\Debug\YBInterface1.pdb
+D:\projects\YBInterface\release\YBInterface1.exe
+D:\projects\YBInterface\release\YBInterface1.pdb
+F:\DISK D\YBInterface\release\YBInterface1.exe.config
+F:\DISK D\YBInterface\YBInterface\obj\Debug\YBInterface1.exe
+F:\DISK D\YBInterface\YBInterface\obj\Debug\YBInterface1.pdb
+D:\Git\aaa.git\release\YBInterface1.exe.config
+D:\Git\aaa.git\YBInterface\obj\Debug\YBInterface1.exe
+D:\Git\aaa.git\YBInterface\obj\Debug\YBInterface1.pdb
+D:\Git\aaa.git\release\YBInterface1.exe
+D:\Git\aaa.git\release\YBInterface1.pdb
+D:\Git\aaa.git\YBInterface\obj\Debug\YBInterface1.csprojResolveAssemblyReference.cache

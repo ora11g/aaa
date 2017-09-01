@@ -1,0 +1,5 @@
+E:\projects\YBInterface\release\YBInterface.pdb
+E:\projects\YBInterface\YBInterface\obj\Debug\YBInterface.pdb
+E:\projects\YBInterface\release\YBInterface.exe
+E:\projects\YBInterface\YBInterface\obj\Debug\YBInterface.exe
+E:\projects\YBInterface\release\YBInterface.exe.config

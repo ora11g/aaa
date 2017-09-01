@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6EC9062A-B482-43E5-9D50-7D5B065D873E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YBInterface1</RootNamespace>
+    <AssemblyName>YBInterface1</AssemblyName>
+    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BLL, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\release\BLL.dll</HintPath>
+    </Reference>
+    <Reference Include="Model, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\projects\YBInterface\release\Model.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Linq, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\release\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Utilities, Version=1.0.5970.27175, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\release\Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="YBInterface, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\release\YBInterface.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractQZNhCommon.cs" />
+    <Compile Include="Program.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QzNhApi.cs" />
+    <Compile Include="Support\ApiBase.cs" />
+    <Compile Include="Support\B010001\Api.cs" />
+    <Compile Include="Support\B010001\RequestBody.cs" />
+    <Compile Include="Support\B010001\ResponseBody.cs" />
+    <Compile Include="Support\B010002\Api.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\B010003\Api.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\B010003\RequestBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\B010003\ResponseBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\B010004\Api.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\B010004\RequestBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\B010004\ResponseBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\B010005\Api.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\B010005\RequestBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\B010005\ResponseBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\B010006\Api.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\B010006\RequestBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\B010006\ResponseBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\B010007\Api.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\B010007\RequestBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\B010007\ResponseBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\C010001\Api.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\C010001\RequestBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\C010001\ResponseBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\C010002\Api.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\C010002\RequestBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\C010002\ResponseBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\C010003\Api.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\C010003\RequestBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\C010003\ResponseBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\C010004\Api.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\C010004\RequestBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\C010004\ResponseBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\C010005\Api.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\C010005\RequestBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\C010005\ResponseBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support\Constants.cs" />
+    <Compile Include="Support\Request.cs" />
+    <Compile Include="Support\Response.cs" />
+    <Compile Include="Support\XmlSerializer.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
